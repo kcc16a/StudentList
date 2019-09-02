@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     ListView simpleList;
 
 
-    // comment code to trigger changes
+    // comment code to trigger changes  
 
 
     // Array of strings...
