@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     // Array of strings...
     String peopleList[] = {
-            "Zack Albrecht",
+            "Zach Albrecht",
             "Paula Berggren",
             "JC Campbell",
             "Yodeli Castillo",
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "Ben Lamont",
             "Kyle Lemons",
             "Wade Linder",
-            "Josh Marsden",
+            "John Marsden",
             "Felix Angelo Mbikogbia",
             "Mitchell Melrose",
             "Jade Rupley",
@@ -50,7 +50,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);      setContentView(R.layout.activity_main);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
         simpleList = (ListView)findViewById(R.id.simpleListView);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_listview, R.id.textView, peopleList);
         simpleList.setAdapter(arrayAdapter);
