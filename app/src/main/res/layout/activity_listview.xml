@@ -13,6 +13,5 @@
         android:padding="5dp"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp" />
 </LinearLayout>

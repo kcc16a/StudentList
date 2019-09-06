@@ -3,4 +3,7 @@
     <string name="title_tanner_detail">Prof Tanner</string>
     <string name="rwt_name">Rich Tanner</string>
     <string name="rwt_title">Clinical Professor of DET</string>
+    <string name="jmm_name">John Marsden</string>
+    <string name="jmm_email">jmm15f@acu.edu</string>
+    <string name="jmm_fireflamemm_pic_content_description">Picture of John\'s Character Fireflamemm</string>
 </resources>

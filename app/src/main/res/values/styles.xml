@@ -19,6 +19,13 @@
         <item name="colorAccent">@color/customRed</item>
     </style>
 
+    <style name="JMMCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/jmmOrange</item>
+        <item name="colorPrimaryDark">@color/jmmOrangeDark</item>
+        <item name="colorAccent">@color/jmmBlack</item>
+        <item name="android:textColor">@color/jmmOrangeDark</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
