@@ -7,7 +7,9 @@
     <color name="customBlue">#315A70</color>
     <color name="customBlueDark">#182d38</color>
     <color name="customRed">#a43c43</color>
-    <color name="jmmOrange">#d2730f</color>
-    <color name="jmmOrangeDark">#9d570b</color>
-    <color name="jmmBlack">#000000</color>
+    <color name="jmmCocoaBrown">#d2730f</color>
+    <color name="jmmSmokyBlack">#0c0c0c</color>
+    <color name="jmmJet">#3a3335</color>
+    <color name="jmmMaastrichtBlue">#031927</color>
+    <color name="jmmIsabelline">#f3e8ee</color>
 </resources>

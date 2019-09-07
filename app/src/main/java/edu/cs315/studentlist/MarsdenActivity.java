@@ -19,13 +19,13 @@ public class MarsdenActivity extends AppCompatActivity {
             "Java",
             "SQL",
             "C#",
-            "Kotlin (Coming Soon...)",
+            "Kotlin (Soon...)",
             "JavaScript",
             "Python",
             "PHP",
             "HTML+CSS",
             "C",
-            "LaTex",
+            "LaTeX",
             "Powerpoint"
     };
 
@@ -35,7 +35,7 @@ public class MarsdenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_marsden);
 
         jmmLangListView = (ListView) findViewById(R.id.jmmLangList);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, R.layout.activity_listview, R.id.textView, langArray);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, R.layout.activity_styleless_listviewitem, R.id.textView, langArray);
         jmmLangListView.setAdapter(arrayAdapter);
     }
 

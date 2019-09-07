@@ -20,10 +20,10 @@
     </style>
 
     <style name="JMMCustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/jmmOrange</item>
-        <item name="colorPrimaryDark">@color/jmmOrangeDark</item>
-        <item name="colorAccent">@color/jmmBlack</item>
-        <item name="android:textColor">@color/jmmOrangeDark</item>
+        <item name="colorPrimary">@color/jmmCocoaBrown</item>
+        <item name="colorPrimaryDark">@color/jmmJet</item>
+        <item name="colorAccent">@color/jmmIsabelline</item>
+        <item name="android:textColor">@color/jmmSmokyBlack</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
